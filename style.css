@@ -1,7 +1,7 @@
 body {
 font-family:'Open Sans', sans-serif;
 font-size:14px;
-background-color:#eabf9f;
+background-color:#faf3e0;
 }
 
 .nav a {
@@ -61,14 +61,14 @@ section {
 
     /* COLOR CODES */
 .color-white {
-   background-color:#faf3e0!important;
+   background-color:white!important;
 }
 .color-dark {
    background-color:#1e212d!important;
 }
 
 .color-light {
-   background-color:#eabf9f!important;
+   background-color:#faf3e0!important;
 }
 
 
@@ -76,14 +76,14 @@ section {
 .head-main {
     font-size:80px !important;
     font-weight:900!important;
-    color:#fff!important;
-    padding:150px 20px 10px 20px;
+    color:#1e212d!important;
+    padding:70px 20px 10px 20px;
 }
 .head-sub-main {
     font-size:40px !important;
     font-weight:600!important;
-    color:#fff!important;
-    padding:5px 20px 150px 20px;
+    color:#1e212d!important;
+    padding:5px 20px 70px 20px;
 }
 
 
