@@ -1,11 +1,11 @@
 body {
-          font-family:'Open Sans', sans-serif;
-    font-size:14px;
-  background-color:#9B60DB;
+font-family:'Open Sans', sans-serif;
+font-size:14px;
+background-color:#eabf9f;
 }
 
 .nav a {
-    color:#ffffff !important;
+    color:#ffcb91 !important;
 }
 .navbar-header a {
     color:#ffffff !important;
@@ -61,14 +61,14 @@ section {
 
     /* COLOR CODES */
 .color-white {
-   background-color:#fff!important;
+   background-color:#faf3e0!important;
 }
 .color-dark {
-   background-color:#696969!important;
+   background-color:#1e212d!important;
 }
 
 .color-light {
-   background-color:#E9E9E9!important;
+   background-color:#eabf9f!important;
 }
 
 
@@ -104,8 +104,8 @@ nav {
 }
 
 .navbar-inverse {
-background-color: #000000;
-border-color: #000000;
+background-color: #1e212d;
+border-color: #1e212d;
 min-height: 80px;
 padding-top: 10px;
 font-size: 18px;
@@ -120,17 +120,17 @@ font-size: 30px;
 
 
 .work-div {
-	width: 100%;
-	border: 0;
-    padding:20px;
-    margin-bottom:30px;
+width: 100%;
+border: 0;
+padding:20px;
+margin-bottom:30px;
 }
 /*
     CONTACT STYLES
 */
 
 #social-icon a {
-    color:#616161!important;
+    color:#1e212d!important;
     margin-right:10px;
 }
 .contact-cls {
