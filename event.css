@@ -1,0 +1,100 @@
+.events{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.event-image{
+    width: 30%;
+    position: relative;
+    float: left;
+}
+.time-content-container{
+    width: 70%;
+    position: relative;
+    float: left;
+    
+
+}
+
+.time-content1{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.time-content2{
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color:wheat;
+}
+.time-content4{
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color:wheat;
+}
+.time{
+    width: 20%;
+    position: relative;
+    float: left;
+}
+.content{
+    width: 80%;
+    position: relative;
+    float: left;
+}
+
+
+#mauhong{
+    background-color: #eabf9f;
+    background: #eabf9f;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 600px) {
+  
+    .text-containter, .image-containter {
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 25px;
+        color: rgb(77, 14, 224);
+    
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+    
+    nav {
+        text-align: center
+    }
+  
+    .event-image{
+        width: 30%;
+    }
+
+    .time-content-container{
+        width: 70%;
+    }
+
+    .events{
+        width: 100%;
+    }
+
+    .content{
+        width: 80%;
+    }
+
+    .time{
+        width: 20%;
+    }
+
+
+
+    
+
+
+    
+}
