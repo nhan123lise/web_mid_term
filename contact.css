@@ -7,6 +7,11 @@ body {
     text-align: center;
     color: black;
 }
+.page-header {
+    background: url('https://i.pinimg.com/originals/fc/44/d7/fc44d73a184bb4df9b72af2fff1f0dac.png') no-repeat center 100%;
+    background-size: cover;
+    min-height: 600px;
+}
 
 nav{
     background-color:#1e212d;
