@@ -1,0 +1,308 @@
+
+body {
+    font-family:'Open Sans', sans-serif;
+   font-size:14px;
+}
+
+.page-header h1, .page-header, h2 {
+    text-align: center;
+    color: black;
+}
+
+nav{
+    background-color:#1e212d;
+  }
+  nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+  }
+  nav li{
+    display:inline-block;
+  }
+  nav li a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    padding:14px 16px;
+  }
+
+  nav li:hover{
+    background-color:#d8ac9c;
+  }
+ 
+/* SEARCH */
+  .search{
+    position:relative;
+    display:inline-block;
+    color:white;
+    padding:14px 16px;
+    float: right;}
+
+    input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        font-size: 16px;
+        outline:none;
+        padding: 12px 14px;
+        transition: width 0.4s ease-in-out;
+    }
+    .search:hover .search-bar{
+        display:block;
+      }
+      form input[type="text"]:focus{
+        width:500px;
+      }
+    
+      
+      
+      input {
+        outline: none;
+      }
+      input[type=search] {
+        -webkit-appearance: textfield;
+        -webkit-box-sizing: content-box;
+        font-family: inherit;
+        font-size: 100%;
+      }
+      input::-webkit-search-decoration,
+      input::-webkit-search-cancel-button {
+        display: none; 
+      }
+      
+      
+      input[type=search] {
+        background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+        border: solid 1px #ccc;
+        padding: 9px 10px 9px 32px;
+        width: 55px;
+        
+        -webkit-border-radius: 10em;
+        -moz-border-radius: 10em;
+        border-radius: 10em;
+        
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+      }
+      input[type=search]:focus {
+        width: 130px;
+        background-color: #fff;
+        border-color: #66CC75;
+        
+        -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+        -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+        box-shadow: 0 0 5px rgba(109,207,246,.5);
+      }
+      
+      
+      input:-moz-placeholder {
+        color: #999;
+      }
+      input::-webkit-input-placeholder {
+        color: #999;
+      }
+
+
+table {
+    width: 75%;
+    margin: 50px 0;
+}
+
+thead {
+    background-color: lightgrey;
+}
+.partners-image{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.p1{
+    width: 30%;
+    position: relative;
+    float: left;
+}
+.p2{
+    width: 30%;
+    position: relative;
+    float: left;
+}
+.p3{
+    width: 30%;
+    position: relative;
+    float: left;
+}
+.text-image-text{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.text1{
+    width: 50%;
+    position: relative;
+    float: left;
+    font-size: 10px;
+    color: black;
+}
+.image-text{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+#image{
+    writing-mode: horizontal-tb;
+    display: inline-block;
+}
+
+.image-containter{
+    display: inline-block;
+}
+.image{
+
+    width: 300px;
+    position: relative;
+    float: center;
+    
+}
+.text{
+    width: 45%;
+    position: relative;
+    float: left;
+    font-size: 10px;
+    color:black;
+}
+
+
+
+
+footer {
+    background-color: black;
+    font-weight: bold;
+    color: rgb(248, 245, 245);
+    
+}
+
+
+#map-sec{
+    margin: 20px;
+}
+
+.color-light {
+    background-color:#E9E9E9!important;
+ }
+
+ #social-icon a {
+    color:#616161!important;
+    margin-right:10px;
+}
+.text-center {
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height:80px;
+    font-weight:900;
+    font-size:60px;
+    padding:30px 20px 10px 20px;
+}
+h2 {
+    line-height:40px;
+    font-weight:900;
+    font-size:30px;
+     padding:20px 20px 10px 20px;
+     text-transform:uppercase;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+    line-height:40px;
+    padding-bottom:15px;
+}
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:20px;
+}
+
+.space-free {
+    height:100px;
+}
+
+
+section {
+    padding-top:50px;
+    padding-bottom:30px;
+}
+
+
+.product_container{
+    display: flex;
+    }
+    
+    .product{
+    display: inline-block;
+    }
+    
+    section {
+    padding-top:50px;
+    padding-bottom:30px;
+    }
+    
+    
+    .space-free {
+    height:100px;
+    }
+
+    #promotion{
+        background-color: #eabf9f ;
+    }
+
+.name{
+    font-size: larger;
+}
+
+
+/* mobile responsive */
+@media screen and (max-width: 600px) {
+  
+    .text-containter, .image-containter {
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 25px;
+        color: rgb(77, 14, 224);
+    
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+    
+    nav {
+        text-align: center
+    }
+    
+    table {
+        width: 100%
+    }
+
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+body{
+    /* font-family: 'Akaya Telivigala', cursive; */
+    }
+
+
+
