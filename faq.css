@@ -1,0 +1,316 @@
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+/* @import url('https://fonts.googleapis.com/css?family=Hind:300,400'); */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.bodyform {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+  background: #fff;
+  color: #4d5974;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+.container1 {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+h3 {
+  font-size: 1.75rem;
+  color: #373d51;
+  padding: 1.3rem;
+  margin: 0;
+}
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #799351;
+}
+.accordion a:hover::after {
+  border: 1px solid #799351;
+}
+.accordion a.active {
+  color: #799351;
+  border-bottom: 1px solid #799351;
+}
+.accordion a::after {
+  font-family: 'Ionicons';
+  content: '\f218';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #7288a2;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #7288a2;
+  text-align: center;
+}
+.accordion a.active::after {
+  font-family: 'Ionicons';
+  content: '\f209';
+  color: #799351;
+  border: 1px solid #799351;
+}
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+
+body {
+  font-family:'Open Sans', sans-serif;
+ font-size:14px;
+}
+
+.page-header h1, .page-header, h2 {
+  text-align: center;
+  color: black;
+}
+
+nav{
+  background-color:#1e212d;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+nav li{
+  display:inline-block;
+}
+nav li a{
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  padding:14px 16px;
+}
+
+nav li:hover{
+  background-color:#d8ac9c;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 20px;
+}
+
+.inside{
+    padding-left: 50px;
+    padding-right: 400px;
+}
+
+/* Full-width input fields */
+/* input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border:#1e212d;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  border:#1e212d;
+} */
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+
+
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+
+/* button {
+  background-color: #1e212d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+button:hover{
+  background-color: #616161;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  padding-right: 400px;
+}
+ */
+
+/* #form{
+   
+ 
+    width: 770px;
+      border-radius: 5px;
+      background-color: #eabf9f;
+      padding: 20px;
+      font-size: larger;
+      font-weight: bolder ;
+      height: 700px;
+  
+} */
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=password], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+
+.bodyform {
+  margin-top: 50px;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+  background: #fff;
+  color: #4d5974;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+
+.space-free {
+  height:100px;
+}
+
+
+/* section {
+  padding-top:50px;
+  padding-bottom:30px;
+}
+
+.color-light {
+  background-color:#E9E9E9!important;
+}
+
+#social-icon a {
+  color:#616161!important;
+  margin-right:10px;
+}
+.text-center {
+  text-align:center;
+}
+
+#map-sec{
+margin: 20px;
+}
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+} */
+
+@media screen and (max-width: 600px) {
+
+  .text-containter, .image-containter {
+      width: 100%;
+  }
+  
+  h1 {
+      font-size: 25px;
+      color: rgb(77, 14, 224);
+  
+  }
+  
+  h2 {
+      font-size: 14px;
+  }
+  
+  nav {
+      text-align: center
+  }
+  
+  table {
+      width: 100%
+  }
+
+  
+}
